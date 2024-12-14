@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <nav class="navbar-expand-lg navbar-light d-flex justify-content-around align-items-center py-2 navi shadow-sm">
+    <a class="navbar-brand fw-normal" href="tel:+1234567890"><i class="bi bi-telephone-plus-fill"></i> +91
+      1234567890</a>
+    <a class="navbar-brand fw-normal" href="#"><i class="bi bi-envelope-at-fill"></i> abc@gmail.com</a>
+    <a class="navbar-brand fw-normal" href="#"><i class="bi bi-stopwatch-fill"></i> 08:00-18:00</a>
+    <a href="#callback" class="navbar-brand fw-normal"><button type="button" class="btn btn-danger">
+        Get consultation
+      </button></a>
+  </nav>
+
+  <nav class="navbar navbar-expand-lg navbar-light navi2 shadow-sm bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><b>EasyVisa</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="homepage">
+    <div class="content-wrapper text-center p-4">
+      <h1 class="fw-bold text-center my-2 text-white">
+        US IMMIGRATION<br />
+        CONSULTANCY & VISA SERVICES
+      </h1>
+      <div class="row py-4 hell rounded-3 d-flex justify-content-center">
+        <div class="col-lg-4">
+          <h5 class="fw-bold text-white-50 ">Need a consultation ?</h5>
+        </div>
+        <div class="col-lg-4 mb-2">
+          <a href="#callback">
+            <button type="button" class="btn btn-danger " href="#">
+              Request a Callback
+            </button>
+          </a>
+        </div>
+        <div class="col-lg-4 mb-2">
+          <a href="#contact">
+            <button type="button" class="btn btn-danger ">
+              Contact Us
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container my-5 py-2" id="about">
+    <div class="row">
+      <div class="col-lg-6 col-sm-12 col-md-6">
+        <img src="images/VisaServices_banner2.png" class="img-fluid h-100 w-100" alt="images/VisaServices_banner" />
+      </div>
+      <div class="col-lg-6 col-sm-12 col-md-6 align-content-center px-sm-3">
+        <h4 class="text-secondary mt-2">About Us</h4>
+        <h2 class="text-dark my-2">Welcome to Our Agency</h2>
+        <p class="">
+          Our Agency was established in 2000, Voyage is a private immigration
+          company with a team of highly experienced migration consultants for
+          the Canada, USA, Europe and Australia clients from across the globe
+          wishing to apply for a visa. Voyage Agency provides fee-based
+          services in addition to the official government charges to advise,
+          assist and represent our clients through the often-complex visa
+          application process.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid text-white fs-5 py-5 contact d-flex justify-content-center">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-4">
+          <p>Need a consultaion?</p>
+        </div>
+        <div class="col-lg-4 ">
+          <p class="me-3">Call us today</p>
+          <a class="# text-decoration-none text-light " href="tel:+1234567890"><button type="button"
+              class="btn btn-danger mb-3">
+              +91 2365448662
+            </button></a>
+        </div>
+        <div class="col-lg-4">
+          or email us on<a class="# text-decoration-none text-secondary" href="tel:+1234567890">
+            abc@gmail.com
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid py-5" id="services">
+    <div class="container">
+      <h1 class="text-center">Visa Categories</h1>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 text-center visa-category py-3">
+          <div class="info">
+            <i class="bi bi-people-fill text-danger fs-1"></i>
+            <h4 class="">Skilled Worker Visa</h4>
+            <h5 class="text-secondary">Migrate as a skilled worker</h5>
+            <a href="" class="info-redirection text-decoration-none">More info <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 text-center visa-category py-3">
+          <div class="info">
+            <i class="bi bi-people-fill text-danger fs-1"></i>
+            <h4 class="">Business Immigration Visa</h4>
+            <h5 class="text-secondary">Relocate or invest in a new business abroad</h5>
+            <a href="" class="info-redirection text-decoration-none">More info <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 text-center visa-category py-3">
+          <div class="info">
+            <i class="bi bi-people-fill text-danger fs-1"></i>
+            <h4 class="">Student or Study Visa</h4>
+            <h5 class="text-secondary">Pursue your studies abroad</h5>
+            <a href="" class="info-redirection text-decoration-none">More info <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 text-center visa-category py-3">
+          <div class="info">
+            <i class="bi bi-people-fill text-danger fs-1"></i>
+            <h4 class="">Green Card</h4>
+            <h5 class="text-secondary">Migrate to the USA</h5>
+            <a href="" class="info-redirection text-decoration-none">More info <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 text-center visa-category py-3">
+          <div class="info">
+            <i class="bi bi-people-fill text-danger fs-1"></i>
+            <h4 class=""> Visitor Visa</h4>
+            <h5 class="text-secondary">Travel abroad for business or vacation</h5>
+            <a href="" class="info-redirection text-decoration-none">More info <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 text-center visa-category py-3">
+          <div class="info">
+            <i class="bi bi-people-fill text-danger fs-1"></i>
+            <h4 class="">Family Visa</h4>
+            <h5 class="text-secondary">Join Your Family</h5>
+            <a href="" class="info-redirection text-decoration-none">More info <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div
+        class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center align-items-center service-main-container div1 p-0">
+        <div class="service-heading-odd position-absolute">
+          <h2 class="">Consultaion</h2>
+        </div>
+        <img src="images/part-forth-1.jpg" alt="image" class="w-100 h-100" />
+      </div>
+      <div
+        class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center align-items-center service-main-container div2 p-0">
+        <div class="service-heading-even position-absolute">
+          <h2 class="">Eligibility Assessment</h2>
+        </div>
+        <img src="images/part-forth-2.jpg" alt="image" class="w-100 h-100" />
+      </div>
+      <div
+        class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center align-items-center service-main-container div3 p-0">
+        <div class="service-heading-odd position-absolute">
+          <h2 class="">Application Processing</h2>
+        </div>
+        <img src="images/part-forth-1.jpg" alt="image" class="w-100 h-100" />
+      </div>
+      <div
+        class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center align-items-center service-main-container div4 p-0">
+        <div class="service-heading-even position-absolute">
+          <h2 class="">Client Assistence</h2>
+        </div>
+        <img src="images/part-forth-2.jpg" alt="image" class="w-100 h-100" />
+      </div>
+      <div
+        class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center align-items-center service-main-container div5 p-0">
+        <div class="service-heading-odd position-absolute">
+          <h2 class="">Pre landing Service</h2>
+        </div>
+        <img src="images/part-forth-1.jpg" alt="image" class="w-100 h-100" />
+      </div>
+      <div
+        class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center align-items-center service-main-container div6 p-0">
+        <div class="service-heading-even position-absolute">
+          <h2 class="">Post landing service</h2>
+        </div>
+        <img src="images/part-forth-2.jpg" alt="image" class="w-100 h-100" />
+      </div>
+    </div>
+    <div class="fluid-container bg-white">
+      <div class="container">
+        <h5 class="text-center my-3">Testimonials</h5>
+        <h3 class="text-center">What Our Clients Say About Us</h3>
+        <div class="swiper doctors">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide w-auto py-3">
+              <div class="dr-swiper-container text-center">
+                <div class="dr-image-slider">
+                  <a href=""><img src="images/dr-laura-berman.jpg" width="350px" alt="image" /></a>
+                </div>
+                <div class="dr-description">
+                  <h4>Dr. Laura Berman</h4>
+                  <p>
+                    <a href="" class="text-decoration-none text-dark">Learn more</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide w-auto py-3">
+              <div class="dr-swiper-container text-center">
+                <div class="dr-image-slider">
+                  <a href=""><img src="images/dr-laura-berman.jpg" width="350px" alt="image" /></a>
+                </div>
+                <div class="dr-description">
+                  <h4>Dr. Laura Berman</h4>
+                  <p>
+                    <a href="" class="text-decoration-none text-dark">Learn more</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide w-auto py-3">
+              <div class="dr-swiper-container text-center">
+                <div class="dr-image-slider">
+                  <a href=""><img src="images/dr-laura-berman.jpg" width="350px" alt="image" /></a>
+                </div>
+                <div class="dr-description">
+                  <h4>Dr. Laura Berman</h4>
+                  <p>
+                    <a href="" class="text-decoration-none text-dark">Learn more</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide w-auto py-3">
+              <div class="dr-swiper-container text-center">
+                <div class="dr-image-slider">
+                  <a href=""><img src="images/dr-laura-berman.jpg" width="350px" alt="image" /></a>
+                </div>
+                <div class="dr-description">
+                  <h4>Dr. Laura Berman</h4>
+                  <p>
+                    <a href="" class="text-decoration-none text-dark">Learn more</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide w-auto py-3">
+              <div class="dr-swiper-container text-center">
+                <div class="dr-image-slider">
+                  <a href=""><img src="images/dr-laura-berman.jpg" width="350px" alt="image" /></a>
+                </div>
+                <div class="dr-description">
+                  <h4>Dr. Laura Berman</h4>
+                  <p>
+                    <a href="" class="text-decoration-none text-dark">Learn more</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid py-5 requestform" id="callback">
+      <div class="container py-lg-3 py-sm-1">
+        <div class="row d-flex flex-column-reverse">
+          <div class="col-lg-4">
+            <h2 class="text-white-50">Request a Callback</h2>
+            <form id="contactForm" novalidate class="my-3 ">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control shadow-none" id="name" placeholder="Enter your name" required>
+                <div class="invalid-feedback">Please enter your name.</div>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control shadow-none" id="email" placeholder="Enter your email" required>
+                <div class="invalid-feedback">Please enter a valid email.</div>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" class="form-control mb-3 shadow-none" id="phone" placeholder="Enter your phone number"
+                  pattern="[0-9]{10}" required>
+                <div class="invalid-feedback">Please enter a valid 10-digit phone number.</div>
+              </div>
+              <button type="submit" class="btn btn-primary ">Request a Callback</button>
+            </form>
+            <div class="alert alert-success mt-3 success-message" role="alert">
+              Your form was sent successfully. Our team will contact you soon.
+            </div>
+          </div>
+          <div class="col-lg-8 my-3">
+            <h1 class="text-white-50">
+              Would you like to speak to one of our consultant over phone?
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-lg-5 my-sm-3">
+      <div class="row">
+        <div class="col-md-3 mb-1">
+          <div class="counter-box">
+            <div class="counter" data-count="18">0</div>
+            <p>Year of Experience</p>
+          </div>
+        </div>
+        <div class="col-md-3 mb-1">
+          <div class="counter-box">
+            <div class="counter" data-count="23">0</div>
+            <p>Offices Worldwide</p>
+          </div>
+        </div>
+        <div class="col-md-3 mb-1">
+          <div class="counter-box">
+            <div class="counter" data-count="55">0</div>
+            <p>Official professional Consultants</p>
+          </div>
+        </div>
+        <div class="col-md-3 mb-1">
+          <div class="counter-box">
+            <div class="counter" data-count="10000">0</div>
+            <p>Offices Worldwide</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5 py-3">
+    <h5 class="text-secondary text-center">Gallery</h5>
+    <h3 class="text-lighter text-center mb-3">to immigration</h3>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="hover-overlay">
+          <img src="images/america-2800896_1280.jpg" class="img-fluid" alt="Gallery Image 1" />
+          <div class="hover-text">
+            <h4>America</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="hover-overlay">
+          <img src="images/germany.jpg" class="img-fluid" alt="Gallery Image 2" />
+          <div class="hover-text">
+            <h4>Germany</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="hover-overlay">
+          <img src="images/hongkong.jpg" class="img-fluid" alt="Gallery Image 3" />
+          <div class="hover-text">
+            <h4>HongKong</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="hover-overlay">
+          <img src="images/swithzerland.jpg" class="img-fluid" alt="Gallery Image 3" />
+          <div class="hover-text">
+            <h4>Swithzerland</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="hover-overlay">
+          <img src="images/Paris.jpg" class="img-fluid" alt="Gallery Image 3" />
+          <div class="hover-text">
+            <h4>Paris</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="hover-overlay">
+          <img src="images/china.jpg" class="img-fluid h-100" alt="Gallery Image 3" />
+          <div class="hover-text">
+            <h4>China</h4>
+          </div>
+        </div>
+      </div>
+      <!-- Add more images as needed -->
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224346.54004883842!2d77.04417347155065!3d28.52725273882469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1722587701146!5m2!1sen!2sin"
+        width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div class="container py-5" id="contact">
+    <div class="row">
+      <div class="col-lg-8">
+        <h2>Contact Information</h2>
+        <p class="text-secondary">
+          Would you like to speak to one of our consultant? Choose your way of
+          communication.
+        </p>
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <h4 class="text-danger">Contact</h4>
+            <a href="97353773773" class="text-decoration-none text-secondary">+12 0234 567 89</a><br />
+            <a href="97353773773" class="text-decoration-none text-secondary">+12 0234 567 89</a>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <h4 class="text-danger">Address</h4>
+            <p class="text-secondary">
+              Goldfield Rd. 7685 Rock Maple Honolulu,<br />
+              HI 96815
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-md-6">
+              <h4 class="text-danger">Email</h4>
+              <a href="97353773773" class="text-decoration-none text-secondary">abc@gmail.com</a><br />
+              <a href="97353773773" class="text-decoration-none text-secondary">abc@gmail.com</a>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <h4 class="text-danger">Working Hours</h4>
+              <p class="text-secondary">
+                Mon – Fri : 9 am to 9 pm<br> Sat : 9 am to 5 pm <br>Sun : Closed
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <h2>Request a Callback</h2>
+        <form id="contactFormm" novalidate class="my-3 ">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control shadow-none" id="name" placeholder="Enter your name" required>
+            <div class="invalid-feedback">Please enter your name.</div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control shadow-none" id="email" placeholder="Enter your email" required>
+            <div class="invalid-feedback">Please enter a valid email.</div>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" class="form-control mb-3 shadow-none" id="phone" placeholder="Enter your phone number"
+              pattern="[0-9]{10}" required>
+            <div class="invalid-feedback">Please enter a valid 10-digit phone number.</div>
+          </div>
+          <button type="submit" class="btn btn-primary ">Request a Callback</button>
+        </form>
+        <div class="alert alert-success mt-3 success-messages" role="alert">
+          Your form was sent successfully. Our team will contact you soon.
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container-fluid text-center py-5 footer">
+      <div class="row">
+        <div class="col-lg-12 mb-3">
+          <div class="icon-bar fs-4 text-light">
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-youtube"></i>
+            <i class="bi bi-wordpress"></i>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <p class="text-center text-white-50">&copy;Copyright | Immig Agency 2020. All Right Reserved</p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
